@@ -4,11 +4,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- my CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        
         <title>js pass</title>
     </head>
     <body>
-        <h1>Your password is:</h1>
-        <div id="yourpass"></div>
+
+        <div class="card">
+            <p>Nome: <span id="nom"></span></p>
+            <p>Cognome: <span id="cogn"></span></p>
+            <p>Colore: <span id="color"></span></p>
+
+            <h1>Your password is:</h1>
+            <div id="yourpass"></div>
+            <a class="waves-effect waves-light btn">
+                <i class="material-icons left">send</i>
+                Save
+            </a>
+
+        </div>
+        
+       
+                
+
         <script src="./js/pass.js"></script>
+
     </body>
 </html>

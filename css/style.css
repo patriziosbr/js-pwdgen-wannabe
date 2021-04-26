@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+p {
+    margin-bottom: 8px;
+}
+body {
+    text-align: center;
+    background: linear-gradient(260deg, #Feff00, rgba(255,0,0,.1) );
+}
+.card {
+    margin: auto;
+    margin-top: 64px;
+    width: 250px;
+    padding: 24px;
+    border-radius: 25px;
+    background-color: #f3f4f9;
+}
+
+#yourpass {
+    padding: 16px 0;
+}
