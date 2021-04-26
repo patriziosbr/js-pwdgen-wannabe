@@ -12,3 +12,4 @@ document.getElementById("yourpass").innerHTML = ( nome + cognome + colore + 21 )
 document.getElementById("nom").innerHTML = (nome);
 document.getElementById("cogn").innerHTML = (cognome);
 document.getElementById("color").innerHTML = (colore);
+
